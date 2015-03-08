@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem "haml-rails", "~> 0.8"
+
+gem "erb2haml", :group => :development
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
