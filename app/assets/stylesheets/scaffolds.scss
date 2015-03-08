@@ -39,7 +39,8 @@ div {
 }
 
 #notice {
-  color: green;
+  text-align: center;
+  color: #9E5702;
 }
 
 .field_with_errors {
@@ -49,11 +50,12 @@ div {
 }
 
 #link {
-  width: 100%;
+  width: 70%;
   height: 23px;
   background-color: #011823;
   border-radius: 20px;
   margin-top: 20px;
+  margin: auto;
   p{
    color: #FFA946;
   }
@@ -65,10 +67,11 @@ div {
  }
 
 #list {
-  width: 100%;
+  width: 70%;
   height:60%;
   background-color: #FFA946;
   border-radius: 20px;
+  margin:auto;
 }
 
   table {
@@ -85,16 +88,23 @@ div {
      h1 {
         text-align: center;
         margin-top: 30px;
-        color: #F38200;
+        color: #3A2000;
         font-size: 50px;
+        text-shadow: 2px 2px #FFAE4E;
         }
 
 }
+
+/*#pic {
+ width: 100%;
+} */
 
 #form {
       height:60%;
       background-color: #FFA946;
       border-radius: 20px;
+      width: 70%;
+      margin:auto;
 }
 
 #error_explanation {

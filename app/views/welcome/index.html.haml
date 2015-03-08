@@ -1,9 +1,12 @@
-%link{:href => "http://fonts.googleapis.com/css?family=Lato&effect=anaglyph", :rel => "stylesheet", :type => "text/css"}/
+%link{:href => "http://fonts.googleapis.com/css?family=Lato&effect=fire-animation", :rel => "stylesheet", :type => "text/css"}/
 %body
  %div
-  .font-effect-anaglyph
+  .font-effect-fire-animation
    #head
     %h1 My Movie Log
+ #pic
+  %a{:href => "https://www.flickr.com/photos/joaolavinha/13976308104", :title => "Movie by João Lavinha, on Flickr"}
+  %img{:alt => "Movie", :height => "30%", :src => "https://farm6.staticflickr.com/5528/13976308104_67f31742d8_b.jpg", :width => "70%"}/
  #link
   %p
    = link_to 'New Movie', new_movie_path, {:style=>'color:#FFA946;', :class=> "link-to-color"}
