@@ -6,7 +6,7 @@ class CommentsController < ApplicationController
     end
     
     def destroy
-        @movie = Movie.find(params[:article_id])
+        @movie = Movie.find(params[:movie_id])
         @comment = @movie.comments.find(params[:id])
         @comment.destroy
         redirect_to movie_path(@movie)
