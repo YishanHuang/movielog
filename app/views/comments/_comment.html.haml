@@ -1,0 +1,12 @@
+#comment-box
+ %p
+  %strong Name:
+  = comment.name
+ %p
+  %strong Comment:
+  = comment.body
+
+ %p
+  = link_to 'Delete Comment', [comment.movie, comment], |
+    method: :delete,                                       |
+    data: { confirm: 'Are you sure you want to delete this?' }                     |

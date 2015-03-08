@@ -1,0 +1,48 @@
+// Place all the styles related to the Comments controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#comments{
+form {
+    margin: auto;
+    height:60%;
+      background-color: #FFA946;
+      border-radius: 20px;
+      width: 70%;
+      padding-top:5px;
+      padding-bottom:5px;
+      p{
+      line-height: 1.5em;
+      }
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+h4{
+  padding-top:5px;
+  padding-bottom:5px;
+  width: 50%;
+  background-color: #011823;
+  border-radius: 20px;
+  margin: auto;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+}
+
+#comment-box{
+      padding-top:5px;
+      padding-bottom:5px;
+       margin: auto;
+      height:60%;
+      background-color: #FFA946;
+      border-radius: 20px;
+      width: 70%;
+      margin-bottom: 10px;
+
+}

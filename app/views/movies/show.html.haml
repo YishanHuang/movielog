@@ -3,11 +3,19 @@
  #show
   %p#notice= notice
   %p
-   %strong Name:
+   %strong Movie Name:
    = @movie.name
   %p
    %strong Date:
    = @movie.date
+
+ #comments
+  %h4 Comments
+  = render @movie.comments
+
+  %h4 Add a comment:
+  = render "comments/form"
+
  #link
   %p
    = link_to 'Edit', edit_movie_path(@movie),  {:style=>"color:#FFA946"}
