@@ -21,6 +21,6 @@
 
  #link
   %p
-   = link_to 'New Movie', new_movie_path, {:style=>'color:#FFA946;', :class=> "link-to-color"}
+   = link_to 'New Movie', new_movie_path,  {:style=>"color:#FFA946"}
    |
-   = link_to 'Main', controller: 'welcome'
+   = link_to 'Main', {:controller => 'welcome'}, :style=>"color:#FFA946"
