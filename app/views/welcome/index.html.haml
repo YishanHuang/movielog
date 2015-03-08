@@ -1,2 +1,11 @@
-%h1 My Movie Log
-= link_to 'My movie list', controller: 'movies'
+%link{:href => "http://fonts.googleapis.com/css?family=Lato&effect=anaglyph", :rel => "stylesheet", :type => "text/css"}/
+%body
+ %div
+  .font-effect-anaglyph
+   #head
+    %h1 My Movie Log
+ #link
+  %p
+   = link_to 'New Movie', new_movie_path, {:style=>'color:#FFA946;', :class=> "link-to-color"}
+   |
+   = link_to 'My movie list', controller: 'movies'
