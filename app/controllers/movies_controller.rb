@@ -16,7 +16,12 @@ class MoviesController < ApplicationController
   def new
     @movie = Movie.new
   end
-
+  
+  def date_cannot_be_in_the_future
+     if date < Date.today
+        errors.add(:date, "can't be in the future")
+     end
+ end
   # GET /movies/1/edit
   def edit
   end
