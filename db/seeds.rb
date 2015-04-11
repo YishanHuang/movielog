@@ -20,7 +20,7 @@ Comment.create(name: "Maggie", body: "Excellent cinematography, love the theme a
 movie = Movie.create(name: 'The Imitation Game' , date: Date.today)
 Comment.create(name: "Paul", body: "I think Benedict should win an oscar for this one", movie_id: movie.id)
 
-movie = Movie.create[name: 'Fast and Furious 7' , date: Date.new(2014,3,15) ]
+movie = Movie.create(name: 'Fast and Furious 7' , date: Date.new(2014,3,15) )
 Comment.create(name: "Kate", body: "In memory of Paul Walker", movie_id: movie.id)
 Comment.create(name: "Jason", body: "Nice cars!!", movie_id: movie.id)
 
