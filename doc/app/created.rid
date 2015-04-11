@@ -1,0 +1,12 @@
+Tue, 07 Apr 2015 19:07:15 -0500
+README.rdoc	Sat, 07 Mar 2015 09:35:21 -0600
+app/controllers/application_controller.rb	Sat, 07 Mar 2015 09:35:21 -0600
+app/controllers/comments_controller.rb	Sun, 08 Mar 2015 17:30:01 -0500
+app/controllers/movies_controller.rb	Tue, 10 Mar 2015 16:40:32 -0500
+app/controllers/welcome_controller.rb	Sat, 07 Mar 2015 09:43:00 -0600
+app/helpers/application_helper.rb	Sat, 07 Mar 2015 09:35:21 -0600
+app/helpers/comments_helper.rb	Sun, 08 Mar 2015 15:08:54 -0500
+app/helpers/movies_helper.rb	Sat, 07 Mar 2015 09:39:06 -0600
+app/helpers/welcome_helper.rb	Sat, 07 Mar 2015 09:43:01 -0600
+app/models/comment.rb	Tue, 10 Mar 2015 16:22:44 -0500
+app/models/movie.rb	Tue, 10 Mar 2015 16:34:13 -0500
