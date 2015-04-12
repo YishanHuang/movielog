@@ -4,7 +4,7 @@
 
 
 #comments{
-form {
+     form {
     margin: auto;
     height:60%;
       background-color: #FFA946;
@@ -14,11 +14,17 @@ form {
       padding-bottom:5px;
       p{
       line-height: 1.5em;
-      }
+       }
+
 }
 
 p {
     font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5px;
+
 }
 
 h4{
@@ -45,4 +51,16 @@ h4{
       width: 70%;
       margin-bottom: 10px;
 
+       form{
+       p{
+          #comment.body {
+           width: 70%;
+           height: 50%;
+           margin-top: 10%;
+          }
+
+          }
+       }
 }
+
+
